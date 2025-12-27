@@ -1,0 +1,105 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+
+nav {
+    background-color: #1d00f6;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+nav ul li a {
+    color: white;;
+    text-decoration: none;
+    padding: 0 10px; /* Add padding to create space */
+    border-right: 1px solid #fff; /* Add border to create a line */
+    transition: opacity 0.3s; /* Add transition for smooth effect */
+}
+nav ul li:last-child a {
+    border-right: none; /* Remove border from the last link */
+}
+
+nav ul li a:hover {
+    opacity: 0.7; /* Change opacity on hover */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.hobby1 {
+    background-color:lightseagreen;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.hobby2 {
+    background-color:purple;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.hobby3 {
+    background-color:green;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.hobby1:hover,.hobby2:hover,.hobby3:hover,.hobby4:hover,.hobby5:hover {
+    transform: translateY(-5px);
+}
+
+.hobby1 h2,.hobby2 h2,.hobby3 h2,.hobby4 h2,.hobby5 h2{
+    color: #020202;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.hobby1 p,.hobby2 p,.hobby3 p,.hobby4 p,.hobby5 p {
+    color: #000000;
+    margin-bottom: 5px;
+}
+.zoom-effect {
+    transition: transform 0.3s ease; 
+}
+
+.zoom-effect:hover {
+    transform: scale(1.1);
+}
+
+
+
+    

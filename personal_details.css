@@ -1,0 +1,102 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+nav {
+    background-color:#1d00f6;
+    color: yellow;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+nav ul li a {
+    color: yellow;
+    text-decoration: none;
+    padding: 0 10px; 
+    border-right: 1px solid yellow; 
+    transition: opacity 0.3s; 
+}
+nav ul li:last-child a {
+    border-right: none; /* Remove border from the last link */
+}
+
+nav ul li a:hover {
+    opacity: 0.7; /* Change opacity on hover */
+}
+.personal-info1 {
+    background-color: lightskyblue;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.personal-info2 {
+    background-color:lightpink;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.personal-info3 {
+    background-color: lightsalmon;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.personal-info1 h2,.personal-info2 h2,.personal-info3 h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.personal-info1 p,.personal-info2 p,.personal-info3 p {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.personal-info1 p strong,.personal-info2 p strong ,.personal-info3 p strong{
+    color: #333;
+}
+/* Responsive styling */
+@media only screen and (max-width: 768px) {
+    .profile-pic {
+        width: 120px; /* Reduce width for smaller screens */
+        height: 160px; /* Reduce height for smaller screens */
+    }
+
+    .objective {
+        max-width: 80%; /* Adjust maximum width for smaller screens */
+    }
+}
+
+.zoom-effect {
+    transition: transform 0.3s ease;
+}
+
+.zoom-effect:hover {
+    transform: scale(1.2); 
+}
+

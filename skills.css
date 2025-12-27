@@ -1,0 +1,117 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+nav {
+    background-color:#1d00f6;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px; 
+    border-right: 1px solid #fff; 
+    transition: opacity 0.3s; 
+}
+nav ul li:last-child a {
+    border-right: none; 
+}
+
+nav ul li a:hover {
+    opacity: 0.7; 
+}
+
+.skill-category1 {
+    background-color:cyan;
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.skill-category2 {
+    background-color:yellowgreen;
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.skill-category3 {
+    background-color:plum;
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.skill-category4 {
+    background-color:rgb(221, 160, 200);
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.skill-category1 h2,.skill-category2 h2,.skill-category3 h2{
+     color:rgb(0, 0, 0);
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.skill-category1 ul,.skill-category2 ul,.skill-category3 ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-category1 ul li,.skill-category2 ul li,.skill-category3 ul li {
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+/* Responsive styling */
+@media only screen and (max-width: 768px) {
+    .profile-pic {
+        width: 120px; /* Reduce width for smaller screens */
+        height: 160px; /* Reduce height for smaller screens */
+    }
+
+    .objective {
+        max-width: 80%; /* Adjust maximum width for smaller screens */
+    }
+}
+.zoom-effect {
+    transition: transform 0.3s ease; 
+}
+
+.zoom-effect:hover {
+    transform: scale(1.1); 
+}
+
+
